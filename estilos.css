@@ -1,0 +1,403 @@
+body{   /* estilo del cuerpo*/
+    background-color: rgb(248, 250, 249);   /*color de fondo*/
+    margin: 0%; /* margen*/
+}
+
+.div{
+   
+    border:1px solid rgba(12, 12, 12, 0.938); /* borde, grosor y color*/
+    width: 100%; /*ancho*/
+    height: 1300px; /*alto*/
+    background: transparent; /* fondo*/
+
+    
+}
+
+.header{    /*cabecera*/
+   background: pink ; /* fondo*/
+    border:1px solid rgb(250, 96, 160); /* borde*/
+    width: 100%; /* ancho*/
+    height: 10%; /* alto*/
+    display: flex;  /* vuelve el elemento flexible para alterar sus dimensiones*/
+    justify-content: center;   /* para justificar el contenido*/
+    font-size: 30px;  /* tamaño de la letra*/
+    font-family: cursive;  /* tipo de letra*/
+    font-weight: bold; /* grosor de la letra*/
+    
+    
+
+    
+}
+
+
+
+.nav{
+   
+    border:1px solid rgb(12, 12, 12);
+    width: 100%;
+    height: 13%;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    background-color: rgb(249, 252, 251);
+
+    
+}
+
+.section{
+    float:left;  /* ubica el elemento en el lado deseado*/
+    border:1px solid black;
+    width: 48%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(64, 220, 231);
+    background-repeat: no-repeat; /* indica como se repiten los fondos */
+    background-size: cover; /* especifica el tamaño de las imagens*/
+    background-position: center; /* especifica la posicion de la imagen*/
+    
+    
+}
+
+.columna{
+   
+    float:left;  /* ubica el elemento en el lado deseado*/
+    border:1px solid black;
+    width: 51%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 0, 242);
+
+    
+}
+
+.columnaphp{
+   
+   float:left; 
+   border:1px solid black;
+   width: 51%;
+   height: 70%;
+   display: flex;
+   justify-content: center;
+   background-color: orangered;
+
+   
+}
+
+.article2php{
+   margin-right: 20px; /* indica la margen, el espacio al lado derecho del articulo*/
+   margin-top: 20px; /* indica la margen, el espacio arriba del articulo*/
+    border:10px solid orangered;
+    width: 90%;
+    height: 10%;
+    display: flex;
+  margin-left: 40px;
+   font-size: 30px;
+    background-color: orangered;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+
+    
+}
+
+.article2{
+   margin-right: 20px;
+   margin-top: 20px;
+    border:10px solid rgb(255, 0, 242);
+    width: 90%;
+    height: 10%;
+    display: flex;
+  margin-left: 40px;
+   font-size: 30px;
+    background-color:rgb(255, 0, 242);
+    justify-content: space-between;
+    text-align: center; /* indica la alineacion del texto*/
+    flex-direction: column; /* define la orientacion del texto*/
+
+    
+}
+
+
+.article1{
+   margin-left: 20px;
+   margin-top: 20px;
+    border:10px solid rgb(64, 220, 231);
+    width: 90%;
+    height: 10%;
+    margin-left: 40px;
+    display: flex;
+    font-size: 30px;
+    background-color: rgb(64, 220, 231);
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+
+    
+}
+
+.info{
+    margin-left: 20px;
+    margin-top: 20px;
+     border:10px solid rgb(71, 145, 243);
+     width: 90%;
+     height: 10%;
+     margin-left: 40px;
+     display: flex;
+     justify-content: center;
+     font-size: 30px;
+     background-color: rgb(71, 145, 243);
+     text-align: center;
+     
+ 
+     
+ }
+
+ 
+
+
+
+ .form{     /* edicion del formulario*/
+    width: 95%;
+    margin: auto;
+    background:orangered;    
+    padding: 10px 10px;  /* espacio entre el contenido y el borde*/
+    box-sizing: border-box; /* indica el tamaño de la caja*/
+    margin: 10px;
+    border-radius: 15x;  /* permite redondear los bordes de las cajas del formulario*/
+
+ }
+
+ .inputuno{
+    width: 100%;
+    margin-bottom: 20px;  /* margen del boton*/
+    padding: 7px; /* espacio entre el contenido y el borde*/
+    box-sizing: border-box; /* indica el tamaño de la caja*/
+    font-size: 17px;
+    background: rgb(248, 244, 244);
+    color: rgb(10, 10, 10);
+    border-radius: 7px; /* permite redondear los bordes de las cajas del formulario*/
+ }
+
+ .inputdos{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    background: rgb(248, 244, 244);
+    color: rgb(10, 10, 10);
+    border-radius: 7px;
+ }
+
+ .inputtres{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    background: rgb(248, 244, 244);
+    color: rgb(10, 10, 10);
+    border-radius: 7px;
+ }
+
+ 
+ .uno {
+    display: inline-block;  /* alinea las cajas*/ 
+    text-align: center;
+    align-content: center; /* alinea el contenido*/
+    display:block; /* vuelve el elemento flexible para alterar sus dimensiones*/
+    width: 100px;
+    font-family: arial; /* tipo de letra*/
+    font-weight: 700;  /* ancho de la letra*/
+    background-color: rgb(255, 0, 242);
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin:bottom left;  /* margen del boton*/
+    display: flex;
+    align-items: left;
+    display: inline-block;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+ }
+
+
+ .dos {
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+    display:block;
+    width: 100px;
+    font-family: arial;
+    font-weight: 700;
+    background-color: orangered;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin:bottom left;
+    display: flex;
+    align-items: left;
+    display: inline-block;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+ }
+
+ .tres {
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+    display:block;
+    width: 100px;
+    font-family: arial;
+    font-weight: 700;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin:bottom left;
+    display: flex;
+    align-items: left;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+ }
+ 
+ .cuatro {
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+    display:block;
+    width: 100px;
+    font-family: arial;
+    font-weight: 700;
+    background-color: rgb(185, 78, 185);
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin:bottom left;
+    display: flex;
+    align-items: left;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+ }
+
+ .cinco {
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+    display: contents;
+    width: 100px;
+    font-family: arial;
+    font-weight: 700;
+    background-color: blue;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin:bottom left;
+    display: flex;
+    align-items:LEFT;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+ }
+ 
+
+ .menus {
+    display:flex;
+    justify-content: center;
+ }
+
+.pie{
+   clear:both; /*Desactiva la flotacion, permite que permanezca abajo*/
+    border:1px solid black;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    background-color: rgb(250, 250, 250);
+
+    
+}
+
+.atras {
+
+    display: inline-block;
+    text-align: left;
+    align-content: left;
+    display:block;
+    width: 100px;
+    font-family: arial;
+    font-weight: 700;
+    background-color: rgb(255, 0, 242);
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin:bottom left;
+    display: flex;
+    align-items: left;
+    display: left;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+ }
+
+ .atrasmostrar {
+   display: inline-block;
+    text-align: left;
+    align-content: left;
+    display:block;
+    width: 100px;
+    font-family: arial;
+    font-weight: 700;
+    background-color: orangered;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin:bottom left;
+    display: flex;
+    align-items: left;
+    display: left;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+ }
+ .columnaphp3{
+   
+   float:left;  /* flotacion hacia la izquierda*/
+   border:1px solid black;
+   width: 51%;
+   height: 70%;
+   display: flex;
+   justify-content: center;
+   background-color: yellow;
+
+   
+}
+
+.article2php3{
+   margin-right: 20px;
+   margin-top: 20px;
+    border:10px solid yellow;
+    width: 90%;
+    height: 10%;
+    display: flex;
+  margin-left: 40px;
+   font-size: 30px;
+    background-color: yellow;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+
+    
+}
+
+.form2{
+   width: 95%;
+   margin: auto;
+   background: yellow;    
+   padding: 10px 10px;
+   box-sizing: border-box;
+   margin: 10px;
+   border-radius: 15x;
+
+}
+
