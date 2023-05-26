@@ -1,0 +1,209 @@
+// declarativas 
+ 
+
+function // palabra reservada de java miFucion //nombre de la FUNCION (//numero de parametrso que necesito el calculo que pienso) {
+    return 3 ;
+}
+
+miFucion();
+// expresión
+
+var miFucion = function(a,b){
+    return a + b;
+}
+
+
+
+____________para agregar o quitar codigo con funciones__________
+
+ej=
+
+
+var frutas = ["manzana", "platano", "crerza", "fresa"];
+var masfrutas = frutas.push("Uvas");
+var masfrutas = frutas.pop("Uvas");
+var nuevalongitud = frutas.unshift("Uvas");
+var borrarfruta = frutas.shift("Uvas");
+console.log("Uvas");
+
+________________________________________________________________________
+
+
+miFucion();
+
+
+
+
+_____________________desde chrome en la consola_______________
+
+function saludarestudiantes(estudiante) {
+    console.log(estudiante);
+}
+
+_________undefined__________
+
+saludarestudiantes("SECH");
+
+______________undefined________________
+
+function saludarestudiantes(estudiante) {
+    console.log(`Hola ${estudiante}`);
+}
+
+______________undefined______________________
+saludarestudiantes("SECH");
+
+
+_______calculadora o explica como el resultrado de 2 cosa se una__________
+
+_________variable que dan_________
+
+
+function sumar(a,b) {
+    var resultado = a + b;
+}
+
+______________________________________
+
+function sumar(a,b) {
+    var resultado = a + b;
+    return resultado ;
+}
+
+______________con este comando tendo obtengo el resultado______________
+
+sumar(1,9)
+__________con return obtengo el resultado________________
+
+______examen_____
+typeof (valor);
+
+son los tipos de datos primitivos
+r/
+String, Number, Boolean, Null y Undefined
+
+Es la palabra clave que necesita una función para devolver una salida
+r/
+return
+
+¿Por qué nace JavaScript?
+r/
+para darle interacion
+
+En JavaScript es posible declarar e inicializar una variable en la misma línea:
+r/
+verdadero
+
+¿En qué tipo de proyectos podemos utilizar JavaScript?
+r/
+Frontend, backend, aplicaciones móviles, aplicaciones de escritorio y IoT.
+
+
+________________
+
+//Ejemplos en los que Boolean devuelve Falso:
+Boolean(0); //false
+Boolean(null); //false
+Boolean(NaN); //false
+Boolean(undefined); //false
+Boolean(false); //false
+Boolean(""); //false
+
+//Ejemplos en los que Boolean devuelve verdadero:
+Boolean(1); //true para 1 o cualquier número diferente de cero (0)
+Boolean("a"); //true para cualquier caracter o espacio en blanco en el string
+Boolean([]); //true aunque el array esté vacío
+Boolean({}); //true aunque el objeto esté vacío
+Boolean(function(){}); //Cualquier función es verdadera también
+
+
+
+_____________________________________________________________________________________________________________________________________________________________
+
+_________desde chrome__________
+
+_______verdadero________
+
+if (true) {
+    console,console.log("hola");
+}
+
+______falso_______
+
+if (false) {
+    console,console.log("hola");
+}
+
+_____si lo que esta falso podemos ocuparlo con else___
+
+if (true) {
+    console,console.log("hola");
+} else{
+    console.log("SOY FALSO")
+}
+
+____el soy false______
+
+if (false) {                            // si esto no es verda pasa
+    console,console.log("hola");
+} else{
+    console.log("SOY FALSO")            // el negativo
+}
+
+_____si ahay una condisone que pueda ajustarce para que sea verdadero_____
+
+
+
+
+
+_________________si el cofigo necesita verificar varias veces si es un 1 o 10 o 100_____
+
+var numero =1;
+
+switch (numero){
+    case 1:
+        console.log("soy uno!");
+        break;
+    case 10:
+        console.log("soy un 10!");
+        break;
+    case 100:
+        console.log("soy un 100!");
+        break;
+    default:
+        console.log("no soy nada");
+}
+
+________________________EXAMEN____________________________
+
+En este desafío vas a recibir un parámetro arraySecreto en la función solution. Debes retornar true si el primer elemento del arraySecreto es de tipo string y debes retornar false si es de cualquier otro tipo.
+
+______________SOLUCION__________________
+
+export function solution(arraySecreto) {
+  return (typeof arraySecreto[0] ==
+  "string" ? true : false)
+}
+
+_______________
+
+
+Son los elementos principales de un array:
+r=/
+Índice y elemento.
+
+__________________________________________________________________________
+
+______________________EXAMEN SALUDAR ESTUDIANTES____________________
+
+
+export function solution(estudiantes, deathCount, nuevo) {
+  for (deathCount; deathCount > 0; deathCount--) {
+    estudiantes.pop();
+  }
+  estudiantes.push(nuevo);
+  return estudiantes;
+}
+
+_________________________________________________________________________
+

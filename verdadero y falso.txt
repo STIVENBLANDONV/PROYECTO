@@ -1,0 +1,53 @@
+_________desde chrome__________
+
+_______verdadero________
+
+if (true) {
+    console,console.log("hola");
+}
+
+______falso_______
+
+if (false) {
+    console,console.log("hola");
+}
+
+_____si lo que esta falso podemos ocuparlo con else___
+
+if (true) {
+    console,console.log("hola");
+} else{
+    console.log("SOY FALSO")
+}
+
+____el soy false______
+
+if (false) {                            // si esto no es verda pasa
+    console,console.log("hola");
+} else{
+    console.log("SOY FALSO")            // el negativo
+}
+
+_____si ahay una condisone que pueda ajustarce para que sea verdadero_____
+
+
+
+
+
+_________________si el cofigo necesita verificar varias veces si es un 1 o 10 o 100_____
+
+var numero =1;
+
+switch (numero){
+    case 1:
+        console.log("soy uno!");
+        break;
+    case 10:
+        console.log("soy un 10!");
+        break;
+    case 100:
+        console.log("soy un 100!");
+        break;
+    default:
+        console.log("no soy nada");
+}
