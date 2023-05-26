@@ -1,0 +1,27 @@
+<img src="img sech/New-Project-2020-09-08T181321.798.jpg" alt="" class="imagen-about-us">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS
+
+
+body {
+    color: rgb(176, 233, 187);
+    font-family: 'open sans'; 
+    background-image: url(../img/video_game-xbox-509433.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}

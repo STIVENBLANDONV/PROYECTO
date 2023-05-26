@@ -1,0 +1,2 @@
+<img src="img/Sin título-10000.png" style=" width: 30px;" >
+<img src="IMG/CARRITO DE COMPRAS.png" style=" width: 30px;">

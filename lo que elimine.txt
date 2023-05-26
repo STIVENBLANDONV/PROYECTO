@@ -1,0 +1,17 @@
+      <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col" style="background: greenyellow;">
+                    <a href="#">preguntas frevuentes</a>
+                </div>
+                <div class="col" style="background: black;">
+                  <a href="#">contactanos</a>
+                </div>
+                <div class="col" style="background: greenyellow;">
+                    <a href="#">prensa</a>
+                </div>
+
+                </div>
+            </div>
+        </div>
+      </footer>
